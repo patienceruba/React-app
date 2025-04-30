@@ -1,0 +1,36 @@
+h1{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 50px;
+    background-color: rgb(72, 73, 72);
+    border-radius: 20px;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    padding-left: 20px;
+    list-style: none;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    transition: .5s;
+}
+a:hover{
+    padding: 10px 20px;
+    background-color: rgb(51, 62, 71);
+    box-shadow: 2px 2px 2px 2px white;
+    border-radius: 20px;
+}
